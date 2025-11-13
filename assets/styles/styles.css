@@ -31,7 +31,6 @@ body{
 
 .hero-banner h1 {
   color: rgb(112,120,133);
-  padding-right: 50px;
   font-family: "VT323", monospace;
   font-weight: 400;
   font-style: normal;
@@ -46,6 +45,9 @@ body{
   display: flex;
   justify-content: flex;
   text-align: left;
+}
+
+.about-me h2 {
   color: #fff;
   padding-top: 50px;
   font-family: "Momo Trust Display", sans-serif;
@@ -59,6 +61,9 @@ body{
   display: flex;
   justify-content: flex;
   text-align: left;
+}
+
+.contact h2 {
   color: #fff;
   padding-top: 50px;
   font-family: "Momo Trust Display", sans-serif;
