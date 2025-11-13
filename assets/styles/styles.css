@@ -10,6 +10,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 .hero-banner {
@@ -47,6 +48,11 @@ body{
   place-content: center;
   color: #fff;
   padding-top: 50px;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .contact {
@@ -55,4 +61,15 @@ body{
   place-content: center;
   color: #fff;
   padding-top: 50px;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
 }
