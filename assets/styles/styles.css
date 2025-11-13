@@ -22,3 +22,19 @@ body{
   padding-right: 50px;
   font-family: "Noto Sans", sans-serif;
 }
+
+.about-me{
+  display: flex;
+  justify-content: flex;
+  place-content: center;
+  color: #9c86cf;
+  padding-top: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex;
+  place-content: center;
+  color: #9c86cf;
+  padding-top: 50px;
+}
