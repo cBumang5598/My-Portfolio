@@ -45,7 +45,7 @@ body{
 .about-me{
   display: flex;
   justify-content: flex;
-  place-content: center;
+  text-align: left;
   color: #fff;
   padding-top: 50px;
   font-family: "Momo Trust Display", sans-serif;
@@ -58,7 +58,7 @@ body{
 .contact {
   display: flex;
   justify-content: flex;
-  place-content: center;
+  text-align: left;
   color: #fff;
   padding-top: 50px;
   font-family: "Momo Trust Display", sans-serif;
