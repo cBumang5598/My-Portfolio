@@ -95,12 +95,15 @@ h2 {
   grid-auto-rows: minmax(150px, auto);
   grid-gap: 100px;
   text-align: center;
+  margin-top: 50px;
+  place-content: center;
+}
+
+.contact-box a{
+  text-decoration: none;
   font-family: "Momo Trust Display", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 50px;
-  place-content: center;
-  text-decoration: none;
 }
 
 .box-e{
