@@ -41,6 +41,22 @@ body{
   text-shadow: 0 0 0 #bfc8d1;
 }
 
+h2 {
+  color: rgb(112,120,133);
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
 .about-me{
   background-color: rgb(34,41,57);
   margin-top: 50px;
@@ -59,30 +75,52 @@ body{
   text-align: justify;
 }
 
+.my-projects {
+  background-color: rgb(34,41,57);
+  margin-top: 50px;
+  border-radius: 10px;
+  padding-top:20px;
+}
+
 .contact{
   background-color: rgb(34,41,57);
   margin-top: 50px;
-  border-radius:10px
+  border-radius: 10px;
+  padding-top: 20px;
 }
 
-h2 {
-  color: rgb(112,120,133);
-  -moz-osx-font-smoothing: grayscale;
-  text-shadow: 0 0 0 #bfc8d1;
+.contact-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  text-align: center;
   font-family: "Momo Trust Display", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 2px;
-  font-size: 30px;
-  padding-left: 20px;
-  text-align: left;
-  padding-bottom: 10px;
-  padding-top: 20px;
-  padding-left: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
-.my-projects {
+.box-e{
+  color: rgb(112,120,133);
   background-color: rgb(34,41,57);
+}
+
+.box-l{
+  color: rgb(112,120,133);
+  background-color: rgb(34,41,57);
+}
+
+.box-n{
+  color: rgb(112,120,133);
+  background-color: rgb(34,41,57);
+}
+
+.box-g{
+  color: rgb(112,120,133);
+  background-color: rgb(34,41,57);
+  padding: 10px 10px 10px 10px;
 }
 
 .back-to-top {
