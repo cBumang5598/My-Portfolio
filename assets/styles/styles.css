@@ -275,17 +275,18 @@ body{
   margin-bottom: 10px;
 }
 
+.contact-box button:hover {
+  cursor: pointer;
+  background-color: rgb(39, 46, 62);
+}
+
 .back-to-top{
-  background-color: rgb(34, 41, 57);
+  background-color: rgb(119, 25, 25);
   position: fixed;
   bottom: 2rem;
   right: 1.5rem;
   z-index: 1000; 
   border-radius: 50%;
-  color: rgb(112, 120, 133);
-}
-
-button:hover {
+  padding: 10px;
   cursor: pointer;
-  background-color: rgb(39, 46, 62);
 }
