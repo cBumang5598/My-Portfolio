@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html{
+  scroll-behavior: smooth;
+}
+
 .container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
@@ -266,4 +270,12 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-top: 150px;
+}
+
+#backtotop{
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  z-index: 1000; 
+  transition: opacity 0.3s, transform 0.3s;
 }
