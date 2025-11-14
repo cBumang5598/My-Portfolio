@@ -41,7 +41,7 @@ body{
   text-shadow: 0 0 0 #bfc8d1;
 }
 
-h2 {
+.about-me h2 {
   color: rgb(112,120,133);
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 0 #bfc8d1;
@@ -75,6 +75,22 @@ h2 {
   text-align: justify;
 }
 
+.my-projects h2 {
+  color: rgb(112,120,133);
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
 .my-projects {
   background-color: rgb(34,41,57);
   margin-top: 100px;
@@ -88,36 +104,65 @@ h2 {
   grid-template-columns: repeat(1, 200px);
   padding-top: 20px;
   place-content: center;
+  text-align: center;
 }
 
 .img-1 h2{
   background-color: rgb(34 41 57);
   width: 600px;
-  text-align: center;
   border-radius: 10px;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .img-2 h2{
   background-color: rgb(34 41 57);
   width: 600px;
-  text-align: center;
   border-radius: 10px;
   margin-left: 180px;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .img-3 h2{
   background-color: rgb(34 41 57);
   width: 600px;
-  text-align: center;
   border-radius: 10px;
   margin-left: 180px;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .img-4 h2{
   background-color: rgb(34 41 57);
   width: 600px;
-  text-align: center;
   border-radius: 10px;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
 }
 
 .img-1 img{
@@ -125,7 +170,6 @@ h2 {
   height: 600px;
   margin-bottom: 50px;
   margin-top: 10px;
-  margin-left: 70px;
   border-radius: 10px;
 }
 
@@ -134,7 +178,6 @@ h2 {
   height: 500px;
   margin-bottom: 50px;
   margin-top: 10px;
-  margin-left: 10px;
   border-radius: 10px;
 }
 
@@ -150,8 +193,23 @@ h2 {
   width: 500px;
   height: 450px;
   margin-top: 10px;
-  margin-left: 65px;
   border-radius: 10px;
+}
+
+.contact h2 {
+  color: rgb(112,120,133);
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 0 #bfc8d1;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 .contact{
