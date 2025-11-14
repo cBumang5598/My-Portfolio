@@ -85,9 +85,39 @@ h2 {
 .project-img{
   display: flex;
   flex-wrap: wrap;
-  grid-template-columns: repeat(1, 400px);
-  padding-top: 30px;
+  grid-template-columns: repeat(1, 200px);
+  padding-top: 20px;
   place-content: center;
+}
+
+.img-1 h2{
+  background-color: rgb(34 41 57);
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.img-2 h2{
+  background-color: rgb(34 41 57);
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 180px;
+}
+
+.img-3 h2{
+  background-color: rgb(34 41 57);
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 180px;
+}
+
+.img-4 h2{
+  background-color: rgb(34 41 57);
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .img-1 img{
@@ -95,6 +125,8 @@ h2 {
   height: 600px;
   margin-bottom: 50px;
   margin-top: 10px;
+  margin-left: 70px;
+  border-radius: 10px;
 }
 
 .img-2 img{
@@ -102,6 +134,8 @@ h2 {
   height: 500px;
   margin-bottom: 50px;
   margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
 }
 
 .img-3 img{
@@ -109,12 +143,15 @@ h2 {
   height: 500px;
   margin-bottom: 50px;
   margin-top: 10px;
+  border-radius: 10px;
 }
 
 .img-4 img{
   width: 500px;
   height: 450px;
   margin-top: 10px;
+  margin-left: 65px;
+  border-radius: 10px;
 }
 
 .contact{
@@ -164,74 +201,8 @@ h2 {
 
 button:hover {
   cursor: pointer;
+  background-color: rgb(39, 46, 62);
 }
-
-/*.contact-box{
-  display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-auto-rows: minmax(300px, auto);
-  grid-gap: 50px;
-  text-align: center;
-  margin-top: 100px;
-  place-content: center;
-  padding-top: 0;
-}
-
-.contact-box h5{
-  text-decoration: none;
-  font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
-}
-
-.box-e{
-  color: rgb(112,120,133);
-  font-size: 12px;
-  background-color: rgb(34,41,57);
-  padding-top: 20px;
-  border-radius: 10px;
-}
-
-.box-l{
-  color: rgb(112,120,133);
-  font-size: 12px;
-  background-color: rgb(34,41,57);
-  padding-top: 20px;
-  border-radius: 10px;
-}
-
-.box-n{
-  color: rgb(112,120,133);
-  font-size: 12px;
-  background-color: rgb(34,41,57);
-  padding-top: 20px;
-  border-radius: 10px;
-  height: 140px;
-  padding-top: 0;
-}
-
-.box-n img{
-  margin-top: 10px;
-}
-
-.box-g{
-  color: rgb(112,120,133);
-  font-size: 12px;
-  background-color: rgb(34,41,57);
-  padding: 10px 10px 10px 10px;
-  padding-top: 20px;
-  border-radius: 10px;
-  height: 140px;
-}
-
-.box-g img{
-  margin-top: 13px;
-}
-
-button:hover{
-  cursor: pointer;
-} */
 
 .back-to-top {
   display: flex;
