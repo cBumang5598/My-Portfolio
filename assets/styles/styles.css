@@ -45,6 +45,20 @@ body{
   text-shadow: 0 0 0 #bfc8d1;
 }
 
+@keyframes blink-animation {
+  0%, 100% {
+    color: rgb(112,120,133);
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+.animated-text{
+  animation: blink-animation 1s step-end infinite;
+}
+
+
 .about-me h2 {
   color: rgb(112,120,133);
   -moz-osx-font-smoothing: grayscale;
