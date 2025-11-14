@@ -31,7 +31,8 @@ body{
   text-align: center;;
   place-content: center;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 280px;
+  margin-bottom: 340px;
 }
 
 .hero-banner h1 {
@@ -242,7 +243,7 @@ body{
   display: grid;
   grid-template-columns: repeat(4, 200px);
   grid-auto-rows: minmax(300px, auto);
-  gap: 50px;
+  gap: 0;
   text-align: center;
   margin-top: 100px;
   place-content: center;
