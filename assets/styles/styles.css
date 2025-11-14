@@ -11,6 +11,7 @@ html{
 
 body{
   background: url(https://wallpapercave.com/wp/wp12461052.jpg);
+  image-rendering: auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,7 +134,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 0 #bfc8d1;
   font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   letter-spacing: 2px;
   font-size: 30px;
@@ -148,7 +149,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 0 #bfc8d1;
   font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   letter-spacing: 2px;
   font-size: 30px;
@@ -163,7 +164,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 0 #bfc8d1;
   font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   letter-spacing: 2px;
   font-size: 30px;
@@ -177,7 +178,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 0 #bfc8d1;
   font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   letter-spacing: 2px;
   font-size: 30px;
@@ -274,22 +275,17 @@ body{
   margin-bottom: 10px;
 }
 
-
-button:hover {
-  cursor: pointer;
-  background-color: rgb(39, 46, 62);
-}
-
-.back-to-top {
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
-}
-
-#backtotop{
+.back-to-top{
+  background-color: rgb(34, 41, 57);
   position: fixed;
   bottom: 2rem;
   right: 1.5rem;
   z-index: 1000; 
-  transition: opacity 0.3s, transform 0.3s;
+  border-radius: 50%;
+  color: rgb(112, 120, 133);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(39, 46, 62);
 }
