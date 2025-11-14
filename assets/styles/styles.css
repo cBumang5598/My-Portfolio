@@ -79,14 +79,14 @@ h2 {
   background-color: rgb(34,41,57);
   margin-top: 100px;
   border-radius: 10px;
-  padding-top:20px;
+  padding-top: 0;
 }
 
 .contact{
   background-color: rgb(34,41,57);
   margin-top: 100px;
   border-radius: 10px;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .contact-box {
