@@ -290,3 +290,54 @@ body{
   padding: 10px;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  .project-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-1, .img-2, .img-3, .img-4 {
+    width: 90%; /* slightly less than full width */
+    max-width: 600px; /* keeps large images from dominating */
+  }
+
+  .contact-box {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-banner h1 {
+    font-size: 22px; 
+    letter-spacing: 1px;
+  }
+    
+  .img-1 h2, .img-2 h2, .img-3 h2, .img-4 h2 {
+    font-size: 24px;
+    max-width: 95%;
+  }
+
+  .about-me h2, .my-projects h2, .contact h2 {
+    font-size: 25px;
+    padding: 15px 20px 10px 20px;
+  }
+
+  .about-me p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+    
+  .contact-box {
+    grid-template-columns: 1fr; /* Single column */
+    gap: 15px;
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .box-e, .box-l, .box-n, .box-g {
+    height: 120px;
+  }
+}
