@@ -128,6 +128,12 @@ h2 {
   background-color: rgb(34,41,57);
   padding-top: 20px;
   border-radius: 10px;
+  height: 140px;
+  padding-top: 0;
+}
+
+.box-n img{
+  margin-top: 5px;
 }
 
 .box-g{
@@ -137,8 +143,7 @@ h2 {
   padding: 10px 10px 10px 10px;
   padding-top: 20px;
   border-radius: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  height: 140px;
 }
 
 button:hover{
