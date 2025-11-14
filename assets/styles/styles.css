@@ -91,19 +91,21 @@ h2 {
 
 .contact-box{
   display: grid;
-  grid-template-columns: repeat(4, 120px);
-  grid-auto-rows: minmax(150px, auto);
-  grid-gap: 100px;
+  grid-template-columns: repeat(4, 200px);
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 50px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   place-content: center;
+  padding-top: 0;
 }
 
-.contact-box a{
+.contact-box h5{
   text-decoration: none;
   font-family: "Momo Trust Display", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 15px;
 }
 
 .box-e{
