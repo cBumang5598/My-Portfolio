@@ -3,15 +3,13 @@
 html{
   scroll-behavior: smooth;
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: min(100% - 30px, 1080px);
   margin-inline: auto;
-  min-height: 100vh;
-  display: flex;     
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 #hero-section {
@@ -23,7 +21,6 @@ html{
 }
 
 header {
-  margin-top: auto;
   width: 100%; 
   max-width: 1080px;
   margin: 0;
@@ -36,6 +33,9 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-banner {
@@ -310,55 +310,4 @@ body{
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
-}
-
-@media (max-width: 1024px) {
-  .project-img {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .img-1, .img-2, .img-3, .img-4 {
-    width: 90%;
-    max-width: 600px;
-  }
-
-  .contact-box {
-    grid-template-columns: repeat(2, minmax(140px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-}
-
-@media (max-width: 600px) {
-  .hero-banner h1 {
-    font-size: 22px; 
-    letter-spacing: 1px;
-  }
-    
-  .img-1 h2, .img-2 h2, .img-3 h2, .img-4 h2 {
-    font-size: 24px;
-    max-width: 95%;
-  }
-
-  .about-me h2, .my-projects h2, .contact h2 {
-    font-size: 25px;
-    padding: 15px 20px 10px 20px;
-  }
-
-  .about-me p {
-    font-size: 16px;
-    padding: 0 20px;
-  }
-    
-  .contact-box {
-    grid-template-columns: 1fr;
-    gap: 15px;
-    padding: 15px;
-    margin-top: 30px;
-  }
-
-  .box-e, .box-l, .box-n, .box-g {
-    height: 120px;
-  }
 }
