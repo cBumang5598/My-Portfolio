@@ -215,6 +215,10 @@ header {
   border: none;
 }
 
+button:hover {
+  background-color: rgb(123, 55, 55);
+}
+
 @media (max-width: 1024px) {
   .project-img {
     flex-direction: column;
